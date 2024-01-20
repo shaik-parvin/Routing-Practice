@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+.header-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.img-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.wave-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.heading {
+  color: #12022f;
+  font-size: 40px;
+}
+
+.unordered-div {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.li {
+  font-size: 25px;
+  color: #12022f;
+  margin-right: 30px;
+  font-weight: bold;
+}
